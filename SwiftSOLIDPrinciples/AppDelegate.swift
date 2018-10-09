@@ -22,9 +22,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Timer Example - SRP, OCP, DIP
-        let clientType: TimerClientType = .SOLID
-        let client: Client = (clientType == .SOLID) ? SolidClient() : NotSolidClient()
-        client.startScheduler()
+//        let clientType: TimerClientType = .SOLID
+//        let client: Client = (clientType == .SOLID) ? SolidClient() : NotSolidClient()
+//        client.startScheduler()
+        
+        // Square/Rectangle Example - LSP
+        let rect1 = NotSolidRectangle()
+        rect1.setWidth(value: 3.0)
+        rect1.setHeight(value: 7.0)
+
+        let square1 = NotSolidSquare()
+        square1.setWidth(value: 3.0)
+        square1.setHeight(value: 7.0)
+
+        print("[Not SOLID] Rectangle: (width: \(rect1.width()), height: \(rect1.height())), area: \(rect1.area())")
+        print("[Not SOLID] Square: (width: \(square1.width()), height: \(square1.height())), area: \(square1.area())")
         
         return true
     }
