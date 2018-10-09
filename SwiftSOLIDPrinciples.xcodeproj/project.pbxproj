@@ -32,6 +32,10 @@
 		BCCF5EC1216CF3C9004BB2E4 /* SolidShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EC0216CF3C9004BB2E4 /* SolidShape.swift */; };
 		BCCF5EC3216CF3E5004BB2E4 /* SolidRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EC2216CF3E5004BB2E4 /* SolidRectangle.swift */; };
 		BCCF5EC5216CF3FC004BB2E4 /* SolidSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EC4216CF3FC004BB2E4 /* SolidSquare.swift */; };
+		BCCF5EC8216CF91F004BB2E4 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EC7216CF91F004BB2E4 /* Transaction.swift */; };
+		BCCF5ECB216CF942004BB2E4 /* NotSolidATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5ECA216CF942004BB2E4 /* NotSolidATM.swift */; };
+		BCCF5ECD216CF961004BB2E4 /* NotSolidDepositTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5ECC216CF961004BB2E4 /* NotSolidDepositTransaction.swift */; };
+		BCCF5ECF216CF980004BB2E4 /* NotSolidConsoleATM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5ECE216CF980004BB2E4 /* NotSolidConsoleATM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +66,10 @@
 		BCCF5EC0216CF3C9004BB2E4 /* SolidShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidShape.swift; sourceTree = "<group>"; };
 		BCCF5EC2216CF3E5004BB2E4 /* SolidRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidRectangle.swift; sourceTree = "<group>"; };
 		BCCF5EC4216CF3FC004BB2E4 /* SolidSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidSquare.swift; sourceTree = "<group>"; };
+		BCCF5EC7216CF91F004BB2E4 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		BCCF5ECA216CF942004BB2E4 /* NotSolidATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidATM.swift; sourceTree = "<group>"; };
+		BCCF5ECC216CF961004BB2E4 /* NotSolidDepositTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidDepositTransaction.swift; sourceTree = "<group>"; };
+		BCCF5ECE216CF980004BB2E4 /* NotSolidConsoleATM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidConsoleATM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		BCCF5E81216CDB19004BB2E4 /* SwiftSOLIDPrinciples */ = {
 			isa = PBXGroup;
 			children = (
+				BCCF5EC6216CF906004BB2E4 /* ATM Example */,
 				BCCF5EB7216CF27C004BB2E4 /* Square Rectangle Example */,
 				BCCF5E94216CDD22004BB2E4 /* Timer Example */,
 				BCCF5E82216CDB19004BB2E4 /* AppDelegate.swift */,
@@ -147,8 +156,8 @@
 		BCCF5EB7216CF27C004BB2E4 /* Square Rectangle Example */ = {
 			isa = PBXGroup;
 			children = (
-				BCCF5EBF216CF3B4004BB2E4 /* Solid Example */,
 				BCCF5EB8216CF2AA004BB2E4 /* Not Solid Example */,
+				BCCF5EBF216CF3B4004BB2E4 /* Solid Example */,
 			);
 			path = "Square Rectangle Example";
 			sourceTree = "<group>";
@@ -170,6 +179,25 @@
 				BCCF5EC4216CF3FC004BB2E4 /* SolidSquare.swift */,
 			);
 			path = "Solid Example";
+			sourceTree = "<group>";
+		};
+		BCCF5EC6216CF906004BB2E4 /* ATM Example */ = {
+			isa = PBXGroup;
+			children = (
+				BCCF5EC7216CF91F004BB2E4 /* Transaction.swift */,
+				BCCF5EC9216CF933004BB2E4 /* Not Solid Example */,
+			);
+			path = "ATM Example";
+			sourceTree = "<group>";
+		};
+		BCCF5EC9216CF933004BB2E4 /* Not Solid Example */ = {
+			isa = PBXGroup;
+			children = (
+				BCCF5ECA216CF942004BB2E4 /* NotSolidATM.swift */,
+				BCCF5ECC216CF961004BB2E4 /* NotSolidDepositTransaction.swift */,
+				BCCF5ECE216CF980004BB2E4 /* NotSolidConsoleATM.swift */,
+			);
+			path = "Not Solid Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +275,7 @@
 				BCCF5E85216CDB19004BB2E4 /* ViewController.swift in Sources */,
 				BCCF5EC5216CF3FC004BB2E4 /* SolidSquare.swift in Sources */,
 				BCCF5E9F216CDDF1004BB2E4 /* NotSolidProfileService.swift in Sources */,
+				BCCF5ECF216CF980004BB2E4 /* NotSolidConsoleATM.swift in Sources */,
 				BCCF5E83216CDB19004BB2E4 /* AppDelegate.swift in Sources */,
 				BCCF5EC3216CF3E5004BB2E4 /* SolidRectangle.swift in Sources */,
 				BCCF5EB2216CE29B004BB2E4 /* ServiceScheduler.swift in Sources */,
@@ -254,12 +283,15 @@
 				BCCF5E9B216CDD80004BB2E4 /* NotSolidServiceScheduler.swift in Sources */,
 				BCCF5E99216CDD50004BB2E4 /* NotSolidClient.swift in Sources */,
 				BCCF5E9D216CDDD4004BB2E4 /* NotSolidTimelineService.swift in Sources */,
+				BCCF5ECD216CF961004BB2E4 /* NotSolidDepositTransaction.swift in Sources */,
 				BCCF5EAA216CE233004BB2E4 /* SolidProfileService.swift in Sources */,
 				BCCF5EB4216CE2B0004BB2E4 /* Service.swift in Sources */,
 				BCCF5EB0216CE283004BB2E4 /* SolidServiceFactory.swift in Sources */,
+				BCCF5EC8216CF91F004BB2E4 /* Transaction.swift in Sources */,
 				BCCF5EA4216CE087004BB2E4 /* SolidClient.swift in Sources */,
 				BCCF5EA6216CE1FA004BB2E4 /* SolidServiceScheduler.swift in Sources */,
 				BCCF5E96216CDD2F004BB2E4 /* Client.swift in Sources */,
+				BCCF5ECB216CF942004BB2E4 /* NotSolidATM.swift in Sources */,
 				BCCF5EC1216CF3C9004BB2E4 /* SolidShape.swift in Sources */,
 				BCCF5EAC216CE24F004BB2E4 /* SolidTimer.swift in Sources */,
 				BCCF5EBE216CF2EA004BB2E4 /* NotSolidSquare.swift in Sources */,
