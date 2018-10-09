@@ -49,6 +49,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let depositTransaction1 = NotSolidDepositTransaction(ui: atmUI)
         depositTransaction1.execute()
         
+        let depositUI = SolidDepositUI()
+        let depositTransaction2 = SolidDepositTransaction(ui: depositUI)
+        depositTransaction2.execute()
+        
         return true
     }
 
