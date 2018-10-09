@@ -12,6 +12,11 @@
 		BCCF5E88216CDB19004BB2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCF5E86216CDB19004BB2E4 /* Main.storyboard */; };
 		BCCF5E8A216CDB1B004BB2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCF5E89216CDB1B004BB2E4 /* Assets.xcassets */; };
 		BCCF5E8D216CDB1B004BB2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCF5E8B216CDB1B004BB2E4 /* LaunchScreen.storyboard */; };
+		BCCF5E96216CDD2F004BB2E4 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5E95216CDD2F004BB2E4 /* Client.swift */; };
+		BCCF5E99216CDD50004BB2E4 /* NotSolidClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5E98216CDD50004BB2E4 /* NotSolidClient.swift */; };
+		BCCF5E9B216CDD80004BB2E4 /* NotSolidServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5E9A216CDD80004BB2E4 /* NotSolidServiceScheduler.swift */; };
+		BCCF5E9D216CDDD4004BB2E4 /* NotSolidTimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5E9C216CDDD4004BB2E4 /* NotSolidTimelineService.swift */; };
+		BCCF5E9F216CDDF1004BB2E4 /* NotSolidProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5E9E216CDDF1004BB2E4 /* NotSolidProfileService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		BCCF5E89216CDB1B004BB2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCCF5E8C216CDB1B004BB2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCCF5E8E216CDB1B004BB2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCF5E95216CDD2F004BB2E4 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		BCCF5E98216CDD50004BB2E4 /* NotSolidClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidClient.swift; sourceTree = "<group>"; };
+		BCCF5E9A216CDD80004BB2E4 /* NotSolidServiceScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidServiceScheduler.swift; sourceTree = "<group>"; };
+		BCCF5E9C216CDDD4004BB2E4 /* NotSolidTimelineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidTimelineService.swift; sourceTree = "<group>"; };
+		BCCF5E9E216CDDF1004BB2E4 /* NotSolidProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidProfileService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		BCCF5E81216CDB19004BB2E4 /* SwiftSOLIDPrinciples */ = {
 			isa = PBXGroup;
 			children = (
+				BCCF5E94216CDD22004BB2E4 /* Timer Example */,
 				BCCF5E82216CDB19004BB2E4 /* AppDelegate.swift */,
 				BCCF5E84216CDB19004BB2E4 /* ViewController.swift */,
 				BCCF5E86216CDB19004BB2E4 /* Main.storyboard */,
@@ -62,6 +73,26 @@
 				BCCF5E8E216CDB1B004BB2E4 /* Info.plist */,
 			);
 			path = SwiftSOLIDPrinciples;
+			sourceTree = "<group>";
+		};
+		BCCF5E94216CDD22004BB2E4 /* Timer Example */ = {
+			isa = PBXGroup;
+			children = (
+				BCCF5E97216CDD33004BB2E4 /* Not Solid Example */,
+				BCCF5E95216CDD2F004BB2E4 /* Client.swift */,
+			);
+			path = "Timer Example";
+			sourceTree = "<group>";
+		};
+		BCCF5E97216CDD33004BB2E4 /* Not Solid Example */ = {
+			isa = PBXGroup;
+			children = (
+				BCCF5E98216CDD50004BB2E4 /* NotSolidClient.swift */,
+				BCCF5E9A216CDD80004BB2E4 /* NotSolidServiceScheduler.swift */,
+				BCCF5E9C216CDDD4004BB2E4 /* NotSolidTimelineService.swift */,
+				BCCF5E9E216CDDF1004BB2E4 /* NotSolidProfileService.swift */,
+			);
+			path = "Not Solid Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCCF5E85216CDB19004BB2E4 /* ViewController.swift in Sources */,
+				BCCF5E9F216CDDF1004BB2E4 /* NotSolidProfileService.swift in Sources */,
 				BCCF5E83216CDB19004BB2E4 /* AppDelegate.swift in Sources */,
+				BCCF5E9B216CDD80004BB2E4 /* NotSolidServiceScheduler.swift in Sources */,
+				BCCF5E99216CDD50004BB2E4 /* NotSolidClient.swift in Sources */,
+				BCCF5E9D216CDDD4004BB2E4 /* NotSolidTimelineService.swift in Sources */,
+				BCCF5E96216CDD2F004BB2E4 /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,9 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    enum TimerClientType {
+        case SOLID
+        case NotSOLID
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Timer Example - SRP, OCP, DIP
+        let clientType: TimerClientType = .SOLID
+        client.startScheduler()
+        
         return true
     }
 
