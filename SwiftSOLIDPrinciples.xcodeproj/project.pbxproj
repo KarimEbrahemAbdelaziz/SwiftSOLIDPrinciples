@@ -17,6 +17,16 @@
 		BCCF5E9B216CDD80004BB2E4 /* NotSolidServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5E9A216CDD80004BB2E4 /* NotSolidServiceScheduler.swift */; };
 		BCCF5E9D216CDDD4004BB2E4 /* NotSolidTimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5E9C216CDDD4004BB2E4 /* NotSolidTimelineService.swift */; };
 		BCCF5E9F216CDDF1004BB2E4 /* NotSolidProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5E9E216CDDF1004BB2E4 /* NotSolidProfileService.swift */; };
+		BCCF5EA4216CE087004BB2E4 /* SolidClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EA3216CE087004BB2E4 /* SolidClient.swift */; };
+		BCCF5EA6216CE1FA004BB2E4 /* SolidServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EA5216CE1FA004BB2E4 /* SolidServiceScheduler.swift */; };
+		BCCF5EA8216CE215004BB2E4 /* SolidTimelineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EA7216CE215004BB2E4 /* SolidTimelineService.swift */; };
+		BCCF5EAA216CE233004BB2E4 /* SolidProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EA9216CE233004BB2E4 /* SolidProfileService.swift */; };
+		BCCF5EAC216CE24F004BB2E4 /* SolidTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EAB216CE24F004BB2E4 /* SolidTimer.swift */; };
+		BCCF5EAE216CE268004BB2E4 /* SolidSchedulerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EAD216CE268004BB2E4 /* SolidSchedulerFactory.swift */; };
+		BCCF5EB0216CE283004BB2E4 /* SolidServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EAF216CE283004BB2E4 /* SolidServiceFactory.swift */; };
+		BCCF5EB2216CE29B004BB2E4 /* ServiceScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EB1216CE29B004BB2E4 /* ServiceScheduler.swift */; };
+		BCCF5EB4216CE2B0004BB2E4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EB3216CE2B0004BB2E4 /* Service.swift */; };
+		BCCF5EB6216CE2C3004BB2E4 /* STimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCF5EB5216CE2C3004BB2E4 /* STimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,16 @@
 		BCCF5E9A216CDD80004BB2E4 /* NotSolidServiceScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidServiceScheduler.swift; sourceTree = "<group>"; };
 		BCCF5E9C216CDDD4004BB2E4 /* NotSolidTimelineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidTimelineService.swift; sourceTree = "<group>"; };
 		BCCF5E9E216CDDF1004BB2E4 /* NotSolidProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSolidProfileService.swift; sourceTree = "<group>"; };
+		BCCF5EA3216CE087004BB2E4 /* SolidClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidClient.swift; sourceTree = "<group>"; };
+		BCCF5EA5216CE1FA004BB2E4 /* SolidServiceScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidServiceScheduler.swift; sourceTree = "<group>"; };
+		BCCF5EA7216CE215004BB2E4 /* SolidTimelineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidTimelineService.swift; sourceTree = "<group>"; };
+		BCCF5EA9216CE233004BB2E4 /* SolidProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidProfileService.swift; sourceTree = "<group>"; };
+		BCCF5EAB216CE24F004BB2E4 /* SolidTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidTimer.swift; sourceTree = "<group>"; };
+		BCCF5EAD216CE268004BB2E4 /* SolidSchedulerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidSchedulerFactory.swift; sourceTree = "<group>"; };
+		BCCF5EAF216CE283004BB2E4 /* SolidServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidServiceFactory.swift; sourceTree = "<group>"; };
+		BCCF5EB1216CE29B004BB2E4 /* ServiceScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceScheduler.swift; sourceTree = "<group>"; };
+		BCCF5EB3216CE2B0004BB2E4 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BCCF5EB5216CE2C3004BB2E4 /* STimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,7 @@
 		BCCF5E94216CDD22004BB2E4 /* Timer Example */ = {
 			isa = PBXGroup;
 			children = (
+				BCCF5EA0216CE05C004BB2E4 /* Solid Example */,
 				BCCF5E97216CDD33004BB2E4 /* Not Solid Example */,
 				BCCF5E95216CDD2F004BB2E4 /* Client.swift */,
 			);
@@ -93,6 +114,23 @@
 				BCCF5E9E216CDDF1004BB2E4 /* NotSolidProfileService.swift */,
 			);
 			path = "Not Solid Example";
+			sourceTree = "<group>";
+		};
+		BCCF5EA0216CE05C004BB2E4 /* Solid Example */ = {
+			isa = PBXGroup;
+			children = (
+				BCCF5EA3216CE087004BB2E4 /* SolidClient.swift */,
+				BCCF5EA5216CE1FA004BB2E4 /* SolidServiceScheduler.swift */,
+				BCCF5EA7216CE215004BB2E4 /* SolidTimelineService.swift */,
+				BCCF5EA9216CE233004BB2E4 /* SolidProfileService.swift */,
+				BCCF5EAB216CE24F004BB2E4 /* SolidTimer.swift */,
+				BCCF5EAD216CE268004BB2E4 /* SolidSchedulerFactory.swift */,
+				BCCF5EAF216CE283004BB2E4 /* SolidServiceFactory.swift */,
+				BCCF5EB1216CE29B004BB2E4 /* ServiceScheduler.swift */,
+				BCCF5EB3216CE2B0004BB2E4 /* Service.swift */,
+				BCCF5EB5216CE2C3004BB2E4 /* STimer.swift */,
+			);
+			path = "Solid Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,13 +204,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCF5EA8216CE215004BB2E4 /* SolidTimelineService.swift in Sources */,
 				BCCF5E85216CDB19004BB2E4 /* ViewController.swift in Sources */,
 				BCCF5E9F216CDDF1004BB2E4 /* NotSolidProfileService.swift in Sources */,
 				BCCF5E83216CDB19004BB2E4 /* AppDelegate.swift in Sources */,
+				BCCF5EB2216CE29B004BB2E4 /* ServiceScheduler.swift in Sources */,
 				BCCF5E9B216CDD80004BB2E4 /* NotSolidServiceScheduler.swift in Sources */,
 				BCCF5E99216CDD50004BB2E4 /* NotSolidClient.swift in Sources */,
 				BCCF5E9D216CDDD4004BB2E4 /* NotSolidTimelineService.swift in Sources */,
+				BCCF5EAA216CE233004BB2E4 /* SolidProfileService.swift in Sources */,
+				BCCF5EB4216CE2B0004BB2E4 /* Service.swift in Sources */,
+				BCCF5EB0216CE283004BB2E4 /* SolidServiceFactory.swift in Sources */,
+				BCCF5EA4216CE087004BB2E4 /* SolidClient.swift in Sources */,
+				BCCF5EA6216CE1FA004BB2E4 /* SolidServiceScheduler.swift in Sources */,
 				BCCF5E96216CDD2F004BB2E4 /* Client.swift in Sources */,
+				BCCF5EAC216CE24F004BB2E4 /* SolidTimer.swift in Sources */,
+				BCCF5EAE216CE268004BB2E4 /* SolidSchedulerFactory.swift in Sources */,
+				BCCF5EB6216CE2C3004BB2E4 /* STimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

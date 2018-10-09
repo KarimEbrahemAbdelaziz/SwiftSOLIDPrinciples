@@ -1,5 +1,5 @@
 //
-//  NotSolidClient.swift
+//  SolidClient.swift
 //  SwiftSOLIDPrinciples
 //
 //  Created by Karim Ebrahem on 10/9/18.
@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct NotSolidClient: Client {
+struct SolidClient: Client {
     
     func startScheduler() {
-        let serviceScheduler = NotSolidServiceScheduler(userID: "123")
+        let serviceScheduler = SolidSchedulerFactory.twitterServiceSchedulerWithUserID(userID: "123")
         
         serviceScheduler.start()
     }

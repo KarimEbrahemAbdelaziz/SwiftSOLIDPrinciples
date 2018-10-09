@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Timer Example - SRP, OCP, DIP
         let clientType: TimerClientType = .SOLID
+        let client: Client = (clientType == .SOLID) ? SolidClient() : NotSolidClient()
         client.startScheduler()
         
         return true
