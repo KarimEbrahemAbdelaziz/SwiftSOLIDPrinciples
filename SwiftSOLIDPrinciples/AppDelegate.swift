@@ -38,6 +38,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("[Not SOLID] Rectangle: (width: \(rect1.width()), height: \(rect1.height())), area: \(rect1.area())")
         print("[Not SOLID] Square: (width: \(square1.width()), height: \(square1.height())), area: \(square1.area())")
         
+        let rect2 = SolidRectangle(width: 3.0, height: 7.0)
+        let square2 = SolidSquare(side: 3.0)
+
+        print("[SOLID] Rectangle: (width: \(rect2.width), height: \(rect2.height)), area: \(rect2.area())")
+        print("[SOLID] Square: (width: \(square2.side), height: \(square2.side)), area: \(square2.area())")
+        
         return true
     }
 
